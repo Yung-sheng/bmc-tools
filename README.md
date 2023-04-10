@@ -15,6 +15,7 @@ $ gcc -Wall listbmcpin.c -o listbmcpin
 ```
 
 # Usage
+listbmcpin -h
 
 usage: listbmcpin list ASPEED ast2600/2620 pin config...
   options:
