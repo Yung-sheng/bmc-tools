@@ -45,3 +45,13 @@ S = "${WORKDIR}/git"
 
 inherit meson
 ```
+```
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " entity-manager"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " dbus-sensors"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " heiji-init"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " pciutils"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " x86-power-control"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " aspeed-svf"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " heiji-fw"
+OBMC_IMAGE_EXTRA_INSTALL:append:heiji = " bmc-tools"
+```
