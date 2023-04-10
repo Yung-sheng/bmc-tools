@@ -20,7 +20,7 @@ listbmcpin -h
 usage: listbmcpin list ASPEED ast2600/2620 pin config...
   options:
     -m --multipin                    List PIN config.
-    -g --gpiopin                     List GPIO PINr config.
+    -g --gpiopin                     List GPIO PIN config.
     -h --help                        Output usage message and exit.
     -v --version                     Output the version number and exit
 ```
