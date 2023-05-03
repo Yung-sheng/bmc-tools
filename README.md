@@ -27,7 +27,7 @@ usage: listbmcpin list ASPEED ast2600/2620 pin config...
 
 ```
 bb file example:
-recipes-support\bmc-tools\bmc-tools_git
+recipes-support\bmc-tools\bmc-tools.bb
 
 SUMMARY = "Set of tools for BMC"
 HOMEPAGE = "https://github.com/Yung-sheng/bmc-tools"
